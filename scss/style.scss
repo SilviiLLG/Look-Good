@@ -1,0 +1,78 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.logo {
+  height: 50px;
+}
+
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
+              url('../img/logo-lookgood.png') no-repeat center center/cover;
+}
+
+section {
+  padding: 60px 0;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+/* Botón con gradiente */
+/* Gradiente para botón Enviar */
+.btn-gradient {
+  background: linear-gradient(45deg, #ff4b2b, #ff416c);
+  color: white !important;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.4s ease, transform 0.2s ease;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  transform: scale(1.05);
+}
+
+/* Otros estilos generales */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.logo {
+  height: 50px;
+}
+
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
+              url('../img/logo-lookgood.png') no-repeat center center/cover;
+}
+
+section {
+  padding: 60px 0;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+/* Responsive ajustes */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+}

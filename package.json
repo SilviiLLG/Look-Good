@@ -1,0 +1,16 @@
+{
+  "name": "lookgood-node",
+  "version": "1.0.0",
+  "description": "LookGood converted to Node.js with SCSS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "scss": "sass scss:public/css --no-source-map --watch"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
+}
